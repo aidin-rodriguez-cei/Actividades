@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: rgb(59, 57, 57);
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .nav-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #0056b3;
+  }
+
+  .nav-buttons button:disabled {
+    background-color: #d3d3d3;
+    color: #a0a0a0;
+    cursor: not-allowed;
+}
+  
+  .Content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .Content h3 {
+    margin-top: 0;
+  }
+  
+  .Content img {
+    max-width: 80%;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.flexBetween button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px; /* Esto añade espacio entre los botones */
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.flexBetween button:hover {
+    background-color: #0056b3;
+}
+
+.flexGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos de la grilla horizontalmente */
+    gap: 10px; /* Añade espacio entre los elementos de la grilla */
+}
+
+.flexGrid div {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    text-align: left; /* Opcional, para alinear el texto a la izquierda dentro de cada tarjeta */
+    flex: 1 1 calc(20% - 20px); /* Ajuste del ancho y espacio */
+
+}
+
+.Buttom-Link {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+li {
+  list-style: none;
+}
+
+
+.Buttom-Link:hover {
+  border-color: #646cff;
+}
+.Buttom-Link:focus,
+.Buttom-Link:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+
+  .Buttom-Link:hover {
+    color: #747bff;
+  }
+  .Buttom-Link {
+    background-color: #f9f9f9;
+  }
+}
+
+.Buttom-Link {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Buttom-Link {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.Buttom-Link:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.Buttom-Link.active {
+  color: rgb(254, 212, 212);
+}
+
+button:disabled {
+  background-color: #d3d3d3;
+  color: #ffff;
+  cursor: not-allowed;
+}
+
+button:hover:disabled {
+  background-color: #d3d3d3;
+  color: #ffff;
+  cursor: not-allowed;
+}
