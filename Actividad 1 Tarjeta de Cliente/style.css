@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    text-align: center;
+    padding: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #012E40;
+}
+
+.description {
+    font-size: 1em;
+    color: #202022;
+    margin-bottom: 20px;
+}
+
+.tags {
+    margin-bottom: 20px;
+}
+
+.tags li {
+    display: inline-block;
+    background: #012E40;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.tags li:hover {
+    background: #3CA6A6;
+    scale: 1.1;
+}
+
+button {
+    background: #012E40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3CA6A6;
+    scale: 1.1;
+}
+
+.curiosity {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #012E40;
+}
+
+@media (max-width: 400px) {
+    .card {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
