@@ -1,0 +1,96 @@
+{
+  "status": "ok",
+  "cant": 10,
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Elixir de Manifestación",
+      "efecto": "Potencia la habilidad de manifestar deseos",
+      "duracion": "1 hora",
+      "precio": 111,
+      "stock": 30,
+      "imagenUrl": "/backend/imagenes/img-1.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Tónico de Alineación Chakral",
+      "efecto": "Equilibra y alinea los chakras",
+      "duracion": "2 horas",
+      "precio": 80,
+      "stock": 25,
+      "imagenUrl": "/backend/imagenes/img-2.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Brebaje de Energía Cósmica",
+      "efecto": "Conecta con la energía del universo",
+      "duracion": "45 minutos",
+      "precio": 60,
+      "stock": 15,
+      "imagenUrl": "/backend/imagenes/img-3.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Poción de Paz Interior",
+      "efecto": "Induce un estado de calma y serenidad",
+      "duracion": "3 horas",
+      "precio": 90,
+      "stock": 20,
+      "imagenUrl": "/backend/imagenes/img-1.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Esencia de Clarividencia",
+      "efecto": "Mejora la capacidad de visión espiritual",
+      "duracion": "1 hora",
+      "precio": 110,
+      "stock": 10,
+      "imagenUrl": "/backend/imagenes/img-1.png"
+    },
+    {
+      "id": 6,
+      "nombre": "Elixir de Abundancia",
+      "efecto": "Atrae prosperidad y abundancia",
+      "duracion": "24 horas",
+      "precio": 200,
+      "stock": 8,
+      "imagenUrl": "/backend/imagenes/img-1.png"
+    },
+    {
+      "id": 7,
+      "nombre": "Brebaje de Sanación Espiritual",
+      "efecto": "Promueve la sanación del alma",
+      "duracion": "2 horas",
+      "precio": 130,
+      "stock": 12,
+      "imagenUrl": "/backend/imagenes/img-1.png"
+    },
+    {
+      "id": 8,
+      "nombre": "Tónico de Protección Áurica",
+      "efecto": "Fortalece el campo energético",
+      "duracion": "6 horas",
+      "precio": 140,
+      "stock": 18,
+      "imagenUrl": "/backend/imagenes/img-1.png"
+    },
+    {
+      "id": 9,
+      "nombre": "Poción de Conexión Divina",
+      "efecto": "Facilita la conexión con lo divino",
+      "duracion": "4 horas",
+      "precio": 170,
+      "stock": 10,
+      "imagenUrl": "/backend/imagenes/img-1.png"
+    },
+    {
+      "id": 10,
+      "nombre": "Elixir de Amor Universal",
+      "efecto": "Fomenta el amor y la compasión universales",
+      "duracion": "12 horas",
+      "precio": 160,
+      "stock": 14,
+      "imagenUrl": "/backend/imagenes/img-1.png"
+    }
+  ]
+}

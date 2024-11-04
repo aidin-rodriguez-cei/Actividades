@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Backend</title>
+</head>
+<body>
+    <h1>Bienvenidos a mi backend de Express!</h1>
+    <img src="img/gatito.jpeg" alt="Gatito">
+
+    <h3>Crear Perfil</h3>
+    <form action="/api/v1/upload" method="post" enctype="multipart/form-data">
+        Avata: <input type="file" name="avatar">
+        Nombre: <input type="text" name="nombre">
+        Clave: <input type="text" name="clave">
+        <input type="submit" name="Enviar">
+    </form>
+    
+</body>
+</html>
